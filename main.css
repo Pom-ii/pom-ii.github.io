@@ -1,0 +1,104 @@
+#banner {
+  height: 30vh;
+  background: url(images/watur.jpg);
+  background-size: cover;
+  margin-bottom: 20px;
+}
+
+#pageOg {
+  width: 70%;
+  justify-self: center;
+}
+
+#coraline {
+  height: 100%;
+}
+
+#logo {
+  height: 60%;
+}
+
+.display {
+  display: flex;
+  flex-flow: column;
+  height: 55vh;
+  overflow: auto;
+}
+
+.project {
+  display: flex;
+  height: 20vh;
+  justify-content: space-around;
+  margin: 2em;
+}
+
+nav {
+  justify-self: right;
+  padding: 1em 2em 0 0;
+}
+
+h1 {
+  color: #ffffff;
+  justify-self: center;
+  margin-top: 0.3em;
+  font-family: "Montserrat Underline", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 6em;
+}
+
+h2 {
+  text-align: center;
+}
+
+p,
+a,
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.description,
+aside > p {
+  font-family: "Petrona", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  text-align: center;
+}
+
+/* GRID */
+main {
+  display: grid;
+  grid-template-areas:
+    "display aside"
+    "display aside";
+  grid-template-columns: 3fr 1fr;
+}
+
+aside {
+  padding-left: 10px;
+  border-left: 1px solid #bfbfbf;
+}
+
+footer {
+  border-top: 1px solid #bfbfbf;
+  margin-top: 10px;
+  box-shadow: 0 -3px 4px #bfbfbf;
+}
+
+#ui {
+  display: grid;
+}
+
+span {
+  display: flex;
+  justify-content: space-around;
+}
+
+.wireframes {
+  width: 40%;
+}
