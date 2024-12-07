@@ -4,8 +4,8 @@ Welcome to my portfolio! I think.
 ## About Me 
 Favourite colour is green, for sure.
 
-##Skills
+## Skills
 Really good listener.
 
-##Contact
+## Contact
 None, I do wear glasses though.
