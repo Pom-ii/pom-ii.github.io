@@ -5,12 +5,21 @@
   margin-bottom: 20px;
 }
 
+.myLogo {
+  width: 70%;
+}
+
+#myLogo {
+  width: 25%;
+}
+
 #pageOg {
   width: 70%;
   justify-self: center;
 }
 
-#coraline {
+#coraline,
+#window {
   height: 100%;
 }
 
@@ -64,6 +73,22 @@ h3 {
   font-style: normal;
   text-align: center;
   margin-bottom: 0;
+  color: #4d8f14;
+}
+
+h4 {
+  font-family: "Montserrat Underline", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 1.5em;
+  margin: 0;
+  color: #1a2e18;
+}
+
+.description {
+  text-align: center;
+  max-width: 400px;
 }
 
 .description,
@@ -77,11 +102,19 @@ a {
 
 p {
   padding: 0 1em;
+  color: #003248;
 }
 
-nav > a {
+a {
+  color: #9ad9e6;
+}
+
+nav > a,
+li > a {
+  font-weight: 600;
   margin-left: 1em;
   text-decoration: none;
+  color: #ffffff;
 }
 
 a:hover {
@@ -100,6 +133,34 @@ main {
 aside {
   padding-left: 10px;
   border-left: 1px solid #bfbfbf;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+aside > p {
+  color: #1a2e18;
+  text-align: center;
+}
+
+li > a {
+  color: #1a2e18;
+}
+
+h2 > a {
+  color: #4d8f14;
+  font-weight: 500;
+}
+
+ul {
+  list-style: none;
+  padding: 1em 3em 0 3em;
+  margin-top: 0;
+  border-top: #bfbfbf 1px solid;
+}
+
+li {
+  text-align: start;
 }
 
 /* footer {
@@ -131,4 +192,28 @@ span {
 
 img {
   border-radius: 10px;
+  box-shadow: 5px 5px 10px #242424;
+}
+
+#storyboard,
+.myLogo,
+#myLogo {
+  box-shadow: none;
+}
+
+#logoDesc {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  max-height: 40vh;
+}
+
+#colorCodes {
+  width: 100%;
+  box-shadow: none;
+}
+
+.type {
+  box-shadow: none;
+  width: 90%;
 }
