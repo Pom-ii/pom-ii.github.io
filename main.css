@@ -18,6 +18,10 @@
   height: 60%;
 }
 
+#motion {
+  height: 90%;
+}
+
 .display {
   display: flex;
   flex-flow: column;
@@ -52,22 +56,36 @@ h2 {
   text-align: center;
 }
 
-p,
-a,
 h3 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Petrona", serif;
+  font-size: 2rem;
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
+  text-align: center;
+  margin-bottom: 0;
 }
 
 .description,
-aside > p {
-  font-family: "Petrona", serif;
+p,
+a {
+  font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
-  text-align: center;
+}
+
+p {
+  padding: 0 1em;
+}
+
+nav > a {
+  margin-left: 1em;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 /* GRID */
@@ -84,11 +102,11 @@ aside {
   border-left: 1px solid #bfbfbf;
 }
 
-footer {
+/* footer {
   border-top: 1px solid #bfbfbf;
   margin-top: 10px;
   box-shadow: 0 -3px 4px #bfbfbf;
-}
+} */
 
 #ui {
   display: grid;
@@ -101,4 +119,16 @@ span {
 
 .wireframes {
   width: 40%;
+}
+
+.covers {
+  width: 30%;
+}
+
+#bookMock {
+  width: 40%;
+}
+
+img {
+  border-radius: 10px;
 }
