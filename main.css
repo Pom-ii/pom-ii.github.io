@@ -1,8 +1,10 @@
 #banner {
-  height: 30vh;
   background: url(images/watur.jpg);
   background-size: cover;
   margin-bottom: 20px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
 }
 
 .myLogo {
@@ -31,10 +33,14 @@
   height: 90%;
 }
 
+#dragon {
+  height: 75%;
+}
+
 .display {
   display: flex;
   flex-flow: column;
-  height: 55vh;
+  height: 64vh;
   overflow: auto;
 }
 
@@ -46,14 +52,12 @@
 }
 
 nav {
-  justify-self: right;
+  align-self: end;
   padding: 1em 2em 0 0;
 }
 
 h1 {
   color: #ffffff;
-  justify-self: center;
-  margin-top: 0.3em;
   font-family: "Montserrat Underline", sans-serif;
   font-optical-sizing: auto;
   font-weight: 600;
@@ -127,7 +131,7 @@ main {
   grid-template-areas:
     "display aside"
     "display aside";
-  grid-template-columns: 3fr 1fr;
+  grid-template-columns: 4fr 1fr;
 }
 
 aside {
@@ -176,6 +180,11 @@ li {
 span {
   display: flex;
   justify-content: space-around;
+  margin: 1em 0;
+}
+
+.iacSpan {
+  margin: 1em 0 5em 0;
 }
 
 .wireframes {
@@ -183,7 +192,7 @@ span {
 }
 
 .covers {
-  width: 30%;
+  width: 25%;
 }
 
 #bookMock {
